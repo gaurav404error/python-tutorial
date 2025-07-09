@@ -31,5 +31,23 @@ salary : float = 1277777777.78
 #     3455,567
 # ]
 
-print("Gaurav Arora")
-print("Gaurav Arora")
+#print("Gaurav Arora")
+#print("Gaurav Arora")
+
+num=int(input("enter any number 1 to 7:"))
+if num ==1:
+    print("sunday")
+elif num ==2:
+    print("monday")
+elif num ==3:
+    print("tuesday")
+elif num ==4:
+    print("wednesday")
+elif num ==5:
+    print("thrusday")
+elif num ==6:
+    print("friday")
+elif num ==7:
+    print("saturday")
+else:
+    print("please enter number btw 1 to 7")
