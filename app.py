@@ -135,7 +135,162 @@ a : int = 'abhi'
 
 
 # Walrus operator
-if age := int(input("Please provide your age : ")) >= 18:
-    print("He can vote")
-else:
-    print("He can't")
+# if age := int(input("Please provide your age : ")) >= 18:
+#     print("He can vote")
+# else:
+#     print("He can't")
+
+
+    
+    #     if len(password) < 8:
+    #         return False
+    #     if not re.search(r'[A-Z]', password):  
+    #         return False
+    #     if not re.search(r'[a-z]', password):  
+    #         return False
+    #     if not re.search(r'\d', password):    
+    #         return False
+    #     if not re.search(r'[@#$%^&*()\-_+=\[\]{}|:;"\'<>,.?/]', password):  # Special char
+    #         return False
+    #     if "password" in password.lower():     
+    #         return False
+    #     return True
+
+
+#     a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+
+# if a >= b and a >= c:
+#     print("Largest number is", a)
+# elif b >= c:
+#     print("Largest number is", b)
+# else:
+#     print("Largest number is", c)
+
+# a=int(input("side a:"))
+# b=int(input("side b:"))
+# c=int(input("side c:"))
+# if a+b>c and b+c>a and b+c>a and a+c>b:
+#     if a== b ==c:
+#         print ("equilateral triangle")
+#     elif a==b or b==c or a==c:
+#        print("ispsceles triangle")
+#     else:
+#         print("scalene triangle")
+# else:
+#     print("not a triangle")
+
+# temp= float(input("enter temprature in celsius"))
+# if temp<0:
+#    print("freezing")
+# elif temp<=10:
+#    print("very cold")
+# elif temp<20:
+#    print("cold")
+# elif temp<30:
+#    print("warm")
+# elif temp<40:
+#    print(" hot")
+# else:
+#    print("stay at home")
+   
+
+# age=int(input("enter your age"))
+# if age<0:
+#     print ("invalid age")
+# elif age <=12:
+#     print("child")
+# elif age <19:
+#     print("teen")
+# elif age<59:
+#     print("adult")
+# else:
+#     print("senior citizen")
+        
+# for i in range(10):
+#     if i ==5:
+#         print(i)
+
+# for i in range (1,11):
+#     print(f"15*{i}={15*i}")
+
+# total=0
+# for i in range (1,101):
+#     total += i
+#     print("sum:",total)
+
+
+
+
+# for i in range (3,51,3):
+#     print(i)
+
+# text="hello world"
+# vowels='aeiouAEIOU'
+# count=0
+# for char in text:
+#     if char in vowels:
+#         count +=1
+# print ("vowels count:,count")
+
+
+# num=int(input("enter a number:"))
+# factorial=1
+
+# if num<0:
+#     print("factorial does not exist for negative numbers.")
+# elif num ==0:
+#     print("factorial of 0 is 1.")
+# else:
+#     for i in range (i, num+ 1):
+#         factorial *=i
+#     print(f"the factorial of num {num}is {factorial}.")
+
+# i = 0
+# while i < 6:
+#   i += 1
+#   if i == 3:
+#     continue
+#   print(i)
+
+
+     #TEST
+
+# yr= int(input("enter the year"))
+# if yr % 4 ==0:
+#     if yr %100 ==0:
+#         if yr %400 ==0:
+#             print("entered year is a leap year")
+#         else:
+#             print("entered year is not leap year")
+#     else:
+#         print("entered year is a leap year")
+# else:
+#     print ("entered year is not a leap year")
+
+
+# num = int(input("Enter a number: "))
+
+# if num <= 1:
+#     print("Not Prime")
+# else:
+#     for i in range(2, int(num ** 0.5) + 1):
+#         if num % i == 0:
+#             print("Not Prime")
+            
+#     else:
+#         print("prime")
+
+
+
+# celsius = float(input("Enter temperature in Celsius: "))
+# fahrenheit = (celsius * 9/5) + 32
+# print("Temperature in Fahrenheit: ",fahrenheit)
+    
+     
+
+
+# word = input("Enter a word: ")
+# reversed_word = word[::-1]
+# print("Reversed word:", reversed_word)
