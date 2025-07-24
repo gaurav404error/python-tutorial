@@ -140,6 +140,7 @@
 #     case _:
 #         print("Wrong choice!")
 
+# Grade Check
 score = int(input("Enter the score of maths: "))
 
 match score:
