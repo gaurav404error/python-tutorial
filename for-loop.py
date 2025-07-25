@@ -52,4 +52,7 @@
 # while True:
 #     print("Gaurav Singh")
 
-i = 10
+i = 1
+while i <= 10:
+    print("Hello, How are you? I am Gaurav Singh Vashistha!")
+    i = i + 5
