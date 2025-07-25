@@ -141,20 +141,167 @@
 #         print("Wrong choice!")
 
 # Grade Check
-score = int(input("Enter the score of maths: "))
+# score = int(input("Enter the score of maths: "))
 
-match score:
-    case s if score <= 100 and score > 80:
-        print("A")
+# match score:
+#     case s if score <= 100 and score > 80:
+#         print("A")
     
-    case s if score <= 80 and score > 70:
-        print("B")
+#     case s if score <= 80 and score > 70:
+#         print("B")
     
-    case s if score <= 70 and score > 50:
-        print("C")
+#     case s if score <= 70 and score > 50:
+#         print("C")
     
-    case _:
-        print("Give donation to pass!")
+#     case _:
+#         print("Give donation to pass!")
+
+
+
+# signal = "red"
+# match signal:
+#     case "red": print("Stop")
+#     case "green": print("Go")
+#     case "yellow": print("Wait")
+#     case _: print("Invalid color")
+
+
+# day = 6
+# match day:
+#     case 6 | 7:
+#         print("Weekend")
+#     case 1 | 2 | 3 | 4 | 5:
+#         print("Weekday")
+
+
+
+# day, month = 15, 8
+# match (day, month):
+#     case (15, 8): print("Independence Day")
+#     case (26, 1): print("Republic Day")
+#     case _: print("Not a holiday")
+
+
+
+# result = "pass"
+# match result:
+#     case "pass": print("Congratulations!")
+#     case "fail": print("Try again")
+
+
+# n = 15
+# match n:
+#     case x if x % 3 == 0 and x % 5 == 0: print("Divisible by 3 and 5")
+#     case x if x % 3 == 0: print("Divisible by 3")
+#     case x if x % 5 == 0: print("Divisible by 5")
+#     case _: print("Not divisible")
+
+
+
+# temp = 30
+# match temp:
+#     case t if t < 20: print("Cold")
+#     case t if 20 <= t <= 35: print("Warm")
+#     case _: print("Hot")
+
+
+
+# animal = "snake"
+# match animal:
+#     case "dog" | "cat": print("Mammal")
+#     case "parrot": print("Bird")
+#     case "snake": print("Reptile")
+#     case _: print("Unknown")
+
+
+# n = 7
+# match n:
+#     case 2 | 3 | 5 | 7: print("Prime")
+#     case 1: print("Neither Prime nor Composite")
+#     case _: print("Composite")
+
+
+
+# day, month = 25, 12
+# match (day, month):
+#     case (25, 12): print("Christmas")
+#     case (14, 1): print("Makar Sankranti")
+#     case _: print("No major festival")
+
+
+
+# age, gender = 25, "male"
+# match (age, gender):
+#     case (a, "male") if a < 18: print("Boy")
+#     case (a, "female") if a < 18: print("Girl")
+#     case (a, "male") if a >= 18: print("Man")
+#     case (a, "female") if a >= 18: print("Woman")
+
+
+
+# marks, subject = 65, "math"
+# match subject:
+#     case "math" if marks >= 40: print("Pass in Math")
+#     case "science" if marks >= 35: print("Pass in Science")
+#     case _: print("Fail")
+
+
+
+# word = "Amazing"
+# match word:
+#     case w if w.startswith("A") and len(w) > 5:
+#         print("Starts with A and is long")
+#     case _: print("Doesn't match")
+
+
+
+
+# emp_type, salary = "permanent", 30000
+# match emp_type:
+#     case "permanent" if salary > 25000: print("Bonus: ₹5000")
+#     case "contract" if salary > 20000: print("Bonus: ₹2000")
+#     case _: print("No bonus")
+
+
+
+
+# hour = 14
+# match hour:
+#     case h if 5 <= h < 12: print("Good Morning")
+#     case h if 12 <= h < 17: print("Good Afternoon")
+#     case h if 17 <= h < 21: print("Good Evening")
+#     case _: print("Good Night")
+
+
+
+
+
+# a, b = 4, 6
+# match (a % 2, b % 2):
+#     case (0, 0): print("Both even")
+#     case (1, 1): print("Both odd")
+#     case _: print("One even, one odd")
+
+
+
+
+# year = 2024
+# match year:
+#     case y if y % 400 == 0 or (y % 4 == 0 and y % 100 != 0):
+#         print("Leap Year")
+#     case _: print("Not Leap Year")
+
+
+
+
+# day, month = 19, 2
+# match (day, month):
+#     case (d, 1) if d >= 20 or (month == 2 and d <= 18):
+#         print("Aquarius")
+#     case _: print("Other Sign")
+
+
+
 
 
 
