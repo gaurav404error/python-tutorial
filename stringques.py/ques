@@ -1,0 +1,41 @@
+# def count_char(string, char):
+#     return string.count(char)
+
+# s = input("Enter a string: ")
+# c = input("Enter character to count: ")
+# print(f"'{c}' occurred {count_char(s, c)} times.")
+
+
+# def replace_vowels(string):
+#     vowels = "aeiouAEIOU"
+#     return ''.join(['*' if ch in vowels else ch for ch in string])
+
+# s = input("Enter a string: ")
+# print("String after replacing vowels:", replace_vowels(s))
+
+# def reverse_in_place(s):
+#     s = list(s)
+#     start, end = 0, len(s) - 1
+#     while start < end:
+#         s[start], s[end] = s[end], s[start]
+#         start += 1
+#         end -= 1
+#     return ''.join(s)
+
+# s = input("Enter a string: ")
+# print("Reversed string:", reverse_in_place(s))
+
+
+
+
+
+
+
+# def is_palindrome(s):
+#     return s == s[::-1]
+
+# s = input("Enter a string: ")
+# if is_palindrome(s):
+#     print("It's a palindrome.")
+# else:
+#     print("It's not a palindrome.")
