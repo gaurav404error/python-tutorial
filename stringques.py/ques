@@ -41,11 +41,45 @@
 #     print("It's not a palindrome.")
 
 # void function - no return type.
-def greet():
-    print("God loves Gaurav.")
+# def greet():
+#     print("God loves Gaurav.")
 
-# arguements 
-def greet(first_name:str) -> None:
-    print(f"God loves {first_name}")
+# # arguements 
+# def greet(first_name:str) -> None:
+#     print(f"God loves {first_name}")
 
-greet("Gaurav")
+# greet("Gaurav")
+
+# def add_number(x:int, y:int) -> int:
+#     sum_of_numbers = x + y
+#     return sum_of_numbers
+
+# print(add_number(100,2000))
+
+# def compound_interest(principal:float , rate:float , time:int) -> float:
+#     amount = principal * ((1 + rate / 100) ** time)
+
+#     ci = amount - principal
+
+#     return round(ci, 2)
+
+# print(compound_interest(12000, 6.25, 3))
+
+# def max_of_two(x,y):
+#     if x>y:
+#         print(x)
+#     else:
+#         print(y)
+
+# max_of_two(8,10)
+
+
+
+# def sum_numbers(numbers):
+#     total=0
+#     for x in numbers:
+#         total += x
+#     return total
+# # print (sum((8,2,3,-1,7)))
+
+# print(sum_numbers([56,789,21,33,-1]))
