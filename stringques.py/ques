@@ -39,3 +39,13 @@
 #     print("It's a palindrome.")
 # else:
 #     print("It's not a palindrome.")
+
+# void function - no return type.
+def greet():
+    print("God loves Gaurav.")
+
+# arguements 
+def greet(first_name:str) -> None:
+    print(f"God loves {first_name}")
+
+greet("Gaurav")
