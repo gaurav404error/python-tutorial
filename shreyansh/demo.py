@@ -100,7 +100,7 @@ def _mpplus(screen):
     scenes = []
     center = (screen.width // 2, screen.height // 2)
 
-    text = Figlet(font="banner", width=200).renderText("MusicPlayer")
+    text = Figlet(font="banner", width=200).renderText("Gauravji")
     width = max([len(x) for x in text.split("\n")])
 
     effects = [
@@ -110,13 +110,13 @@ def _mpplus(screen):
               speed=1,
               transparent=False),
         Print(screen,
-              FigletText("MusicPlayer", "banner"),
+              FigletText("Gauravji", "banner"),
               screen.height - 9, x=(screen.width - width) // 2 + 1,
               colour=Screen.COLOUR_BLACK,
               bg=Screen.COLOUR_BLACK,
               speed=1),
         Print(screen,
-              FigletText("MusicPlayer", "banner"),
+              FigletText("Gauravji", "banner"),
               screen.height - 9,
               colour=Screen.COLOUR_WHITE,
               bg=Screen.COLOUR_WHITE,
@@ -140,7 +140,7 @@ def _mpplus(screen):
               bg=Screen.COLOUR_BLACK,
               speed=1),
         Print(screen,
-              FigletText("    Plus!    ", "banner"),
+              FigletText("    Vasistha bhai    ", "banner"),
               screen.height - 9,
               colour=Screen.COLOUR_WHITE,
               bg=Screen.COLOUR_WHITE,
@@ -152,7 +152,7 @@ def _mpplus(screen):
         Matrix(screen, stop_frame=200),
         Mirage(
             screen,
-            FigletText("MusicPlayerPlus"),
+            FigletText("Gaurav ji singh"),
             center[1] - 3,
             Screen.COLOUR_GREEN,
             start_frame=100,
@@ -160,7 +160,7 @@ def _mpplus(screen):
         Wipe(screen, start_frame=150),
         Cycle(
             screen,
-            FigletText("MusicPlayerPlus"),
+            FigletText("Vasistha rocks"),
             center[1] - 3,
             start_frame=200)
     ]
@@ -170,7 +170,7 @@ def _mpplus(screen):
         BannerText(
             screen,
             Rainbow(screen, FigletText(
-                "Gaurav like you.", font='slant')),
+                "Gaurav don't believe in failure.", font='slant')),
             center[1] - 3,
             Screen.COLOUR_GREEN)
     ]
