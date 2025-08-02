@@ -1,7 +1,10 @@
+# User defined library or module
+from termcolor import colored # external module 
+
 def add(x:int,y:int) -> None:
     result = x + y
-    print(f"Sum of {x} + {y} = {result}")
-
+    print(colored(f"Sum of {x} + {y} = {result}", "magenta"))
+    
 def subtract(x:int,y:int) -> None:
     result = x - y
     print(f"Difference between {x} - {y} = {result}")
