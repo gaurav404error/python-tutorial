@@ -41,3 +41,4 @@ print(f"You got {(score / 4) * 100} %.")
 
 
 
+

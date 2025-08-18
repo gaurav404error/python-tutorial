@@ -9,4 +9,4 @@ def add_number(x:int, y:int) -> int:
     return sum_of_numbers
 
 def greet(first_name:str) -> None:
-    print(f"{first_name} loves Gauri!")
+    print(f"{first_name} loves India!")

@@ -1,3 +1,2 @@
-from functions import greet
-
-greet("Shreyansh")
+def greet():
+    print("hello,myself gaurav singh vashistha!")
