@@ -30,8 +30,10 @@
 # print(add(12, 19))
 
 # keyword based function
-def greet(first_name, last_name, age):
-    print(f"Namaskaram {first_name} {last_name}! I am {age} years old.")
+# def greet(first_name, last_name, age):
+#     print(f"Namaskaram {first_name} {last_name}! I am {age} years old.")
 
-# greet(12, "Vashishta", "Gaurav")
-greet(age=1, last_name="Vashishta", first_name="Gaurav")
+# # greet(12, "Vashishta", "Gaurav")
+# greet(age=1, last_name="Vashishta", first_name="Gaurav")
+
+
