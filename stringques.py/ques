@@ -1,0 +1,95 @@
+# def count_char(string, char):
+#     return string.count(char)
+
+# s = input("Enter a string: ")
+# c = input("Enter character to count: ")
+# print(f"'{c}' occurred {count_char(s, c)} times.")
+
+
+# def replace_vowels(string):
+#     vowels = "aeiouAEIOU"
+#     return ''.join(['*' if ch in vowels else ch for ch in string])
+
+# s = input("Enter a string: ")
+# print("String after replacing vowels:", replace_vowels(s))
+
+# def reverse_in_place(s):
+#     s = list(s)
+#     start, end = 0, len(s) - 1
+#     while start < end:
+#         s[start], s[end] = s[end], s[start]
+#         start += 1
+#         end -= 1
+#     return ''.join(s)
+
+# s = input("Enter a string: ")
+# print("Reversed string:", reverse_in_place(s))
+
+
+
+
+
+
+
+# def is_palindrome(s):
+#     return s == s[::-1]
+
+# s = input("Enter a string: ")
+# if is_palindrome(s):
+#     print("It's a palindrome.")
+# else:
+#     print("It's not a palindrome.")
+
+# void function - no return type.
+# def greet():
+#     print("God loves Gaurav.")
+
+# # arguements 
+# def greet(first_name:str) -> None:
+#     print(f"God loves {first_name}")
+
+# greet("Gaurav")
+
+# def add_number(x:int, y:int) -> int:
+#     sum_of_numbers = x + y
+#     return sum_of_numbers
+
+# print(add_number(100,2000))
+
+# def compound_interest(principal:float , rate:float , time:int) -> float:
+#     amount = principal * ((1 + rate / 100) ** time)
+
+#     ci = amount - principal
+
+#     return round(ci, 2)
+
+# print(compound_interest(12000, 6.25, 3))
+
+# def max_of_two(x,y):
+#     if x>y:
+#         print(x)
+#     else:
+#         print(y)
+
+# max_of_two(8,10)
+
+
+
+# def sum_numbers(numbers):
+#     total=0
+#     for x in numbers:
+#         total += x
+#     return total
+# # print (sum((8,2,3,-1,7)))
+
+# print(sum_numbers([56,789,21,33,-1]))
+
+
+
+def sum_numbers(numbers):
+    total=0
+    for x in numbers:
+        total+=x
+        return total
+    print(sum(8,2,5,1,-10))
+    print(sum_numbers([55,21,11,-1]))
