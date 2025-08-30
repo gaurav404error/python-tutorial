@@ -236,3 +236,4 @@ print(nums)
 
 nums = list(tuple(range(1,1001,2))) # for generate odd numbers
 print(nums)
+
