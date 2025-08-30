@@ -1,0 +1,238 @@
+# # nums = [1,2,3]
+
+# # # nums.append(12)
+
+# # # print(nums)
+
+# # nums.extend([56,67,89,43,12])
+
+# # print(nums)
+
+# # # # clear()
+# # # nums.clear()
+
+# # # print(nums)
+
+# # # del
+# # del nums[0:2]
+
+# # print(nums)
+
+
+# nums = [65,69,33]
+
+# # nums.append(101)
+
+# # print(nums)
+
+# nums=["Apple", "grapes","mango"]
+
+# nums.extend(["litchi","kiwi","carrot"])
+
+# print(nums)
+
+# nums.extend([1,2,3,4,5])
+# print(len(nums))
+
+
+# # nums.clear()
+# # print(nums)
+
+# del nums[0:2]
+# print(nums)
+
+# nums = [1,2,3,4,5,6,7,1,1]
+
+# insert(index,value)
+# nums.insert(3,44)
+
+# print(nums)
+# pop()
+# nums.pop(0)
+# nums.pop()
+# nums.pop()
+
+# print(nums)
+
+# remove(value)
+# nums.remove(1)
+# print(nums)
+
+# sort()
+# nums.sort()
+# print(nums)
+
+# reverse()
+# nums.reverse()
+# print(nums)
+
+# sort(reverse=True)
+# nums.sort(reverse=True)
+# print(nums)
+
+
+# # ()
+# n = (1,2,3,1,1,1)
+
+# print(n.count(1))
+
+# print(n.index(3))
+
+# nums=(1,2,4,6,9,10)
+# nums= list(nums)
+# nums.insert(3,55)
+# nums=tuple(nums)
+# print(nums)
+
+
+# fruits = ["apple","banana"]
+# fruits.insert(1,"kiwi")
+# print(fruits)
+
+
+
+# colors = ["red","blue","green"]
+# colors[2] = "pink"
+# print(colors)
+
+
+#question 1 => perform basic list operation:
+
+
+# my_list = [10,20,30,40,50]
+# print("first:",my_list[0])
+# my_list.append(60)
+# print("after append:",my_list)
+# my_list.insert(2,25)
+# print("after insert:",my_list)
+# my_list.remove(40)
+# print("after remove:",my_list)
+# print("length:",len(my_list))
+
+# # Question 2 => perform list manipulation:
+
+# my_list = [1,2,3,5,6,7,8]
+# my_list[2]= 10
+# print("updated list:",my_list)
+# del my_list[1]
+# print("after deletion:",my_list)
+
+
+
+# Question 3=> Sum and average of numbers:
+
+# numbers = [1,2,3,4,5,6]
+# sum_of_numbers = sum(numbers)
+
+# average = sum_of_numbers / len(numbers)
+
+# print(average)
+
+# minimum = min(numbers)
+# print(minimum)
+
+# maximum = max(numbers)
+# print(maximum)
+
+
+# Question 4 => Reverse a list:
+
+# my_list = [1,5,3,4,5,42,18]
+# my_list.reverse()
+# print("reversed list:",my_list)
+# print("reversed using slicing:",my_list[::-1])
+
+
+# Question 5 => Turn every item into square:
+
+# numbers = [11,25,30,45,50]
+# square = [x**2 for x in numbers]
+# print("squares:",square)
+
+#Question 6 => Find maximum and minimum:
+
+# numbers = [3,7,52,99,100]
+# print("maximum:",max(numbers))
+# # print("minimum:",(numbers))
+
+
+# Question 7 => Count occurences:
+
+# numbers = [1,2,2,5,1,2,6,4,7,7,8,99,4,66,2,6,8,5,6,99,66,66,55,55,55,44,44,4,4,4,2,2,2,9,9,99,9,]
+# count_2= numbers.count(2)
+# print("occurences of 2:",count_2)
+
+# QUESTION 8 => Sort a list 
+
+# numbers = [ 5,2,8,77,45,49,51,700,1000]
+# numbers.sort()
+# print("ascending:",numbers)
+# numbers.sort(reverse=True)
+# print("descending:",numbers)
+
+
+# Question 9 => Create a copy of a list:
+
+# my_list = [1,11,2,22,3,33,4,55]
+# copy_list = my_list.copy()
+# print("original:",my_list)
+# print("copy:",copy_list)
+
+
+# Question 10 => Combine two lists:
+
+# list1 =["gaurav","singh",52]
+# list2 =[25,55,25]
+# combined= list1=list2
+# print("combined list:",combined)
+
+
+#  #Question 11 => Remove empty strings:
+# words = ["apple","","banana",""," cherry"] 
+# cleaned = [w for w in words if w!=""]
+# print ("after removing empty strings:",cleaned)
+
+# QUESTION 12=> 
+
+
+# Question 13 => Second largest number nikalna hai
+# numbers = [100,2000,30000,40000]
+
+# max_ = max(numbers)
+
+# numbers.remove(max_)
+
+# print(max(numbers))
+
+# Relationship b/w tuple and list
+# - tuple that is faster than list. 
+# - tuple can be used to generate n of elements without using loop. 
+
+# nums = list(tuple(range(1,101))) # 1,2,3,......,100
+# # print(nums)
+
+# import random
+
+# random.shuffle(nums)
+
+# print(nums)
+
+# import random 
+
+# nums = list(tuple(range(1,1001)))
+
+# # random.shuffle(nums)
+
+# # print(sum(nums))
+
+# n = len(nums)
+
+# sum_of = n * (n + 1) // 2
+
+# print(sum_of)
+
+nums = list(tuple(range(2,1001,2))) # for generate even numbers
+print(nums)
+
+nums = list(tuple(range(1,1001,2))) # for generate odd numbers
+print(nums)
