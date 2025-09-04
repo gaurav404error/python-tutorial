@@ -91,3 +91,11 @@ set_a = [1,2,3,4,5]
 # set_a[2], set_a[-1] = set_a[-1], set_a[2]
 
 # print(set_a)
+
+# numbers = [1,3,4,5,6,7]
+# k = 3
+
+# for i in range(len(numbers)):
+#     if k == numbers[i]:
+#         print(k," is at index",i)
+        
