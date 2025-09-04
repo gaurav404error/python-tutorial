@@ -43,8 +43,8 @@
 # print(new_scores) 
 
 # difference (-)
-set_a = {1,2,3,4} # 3
-set_b = {1,2,4,6}
+# set_a = {1,2,3,4} # 3
+# set_b = {1,2,4,6}
 
 # print(set_a - set_b)
 
@@ -65,9 +65,29 @@ set_b = {1,2,4,6}
 # pop() 
 # Set ke case, pop() will remove first item from the set.
 # Jbki list mein last item sbse pehle remove hota hai.
-print(set_a.pop())
-print(set_a.pop())
-print(set_a.pop())
-print(set_a.pop())
-print(set_a.pop())
+# print(set_a.pop())
+# print(set_a.pop())
+# print(set_a.pop())
+# print(set_a.pop())
+# print(set_a.pop())
 
+
+# l = [1,2,3,4,5]
+# index= l.index(3)
+# result=l[index+1:]+l[:index+1][::-1]
+# print(result)
+
+set_a = [1,2,3,4,5]
+# print(set_a.pop())
+# set_a.remove(1)
+# print(set_a)
+
+# a = 10
+# b = 5
+
+# a,b = b,a 
+# print(a)
+
+# set_a[2], set_a[-1] = set_a[-1], set_a[2]
+
+# print(set_a)
