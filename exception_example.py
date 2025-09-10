@@ -35,5 +35,5 @@
 # nums = [1,2,3,4,5]
 # print(nums[5])
 
-with open("abc.txt","r") as f:
-    print(f)
+# with open("abc.txt","r") as f:
+#     print(f)

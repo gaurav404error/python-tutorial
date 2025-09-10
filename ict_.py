@@ -3,7 +3,7 @@ names = dict()
 # print(type(names))
 
 # "name" : "gaurav"
-# "name" : "gauri"
+# "name" : "suarav"
 
 
 # student = {
@@ -133,3 +133,57 @@ names = dict()
 
 
 
+#  Counting with Dictionaries
+
+# def char_count(s):
+#     d={}
+#     for ch in s:
+#         d[ch]= d.get(ch,0)+1
+#     return d 
+# string = "hello jii"
+# print(char_count(string)) 
+
+numbers = [1,1,1,1,2,2,2,3,3,3,3,3,4]
+# # # 1 -> 4 | 2 -> 3 | 3 -> 5 | 4 -> 1
+
+# # freq = {}
+
+# # for number in numbers:
+# #     if number in freq:
+# #         freq[number] += 1
+# #     else:
+# #         freq[number] = 1
+
+# # # { 1 : 4, 2 : 3, 3 : 5, 4 : 1}
+# # print(freq)
+
+# # def count_chars(s):
+# #     count_dict = {}
+# #     for char in s:
+# #         count_dict[char] = count_dict.get(char, 0) + 1
+# #     return count_dict
+
+# string = "hellohell"
+# # print(count_chars(string))
+
+# from collections import Counter
+
+# freq = dict(Counter(string))
+# print(freq)
+
+# numbers = {i:i**2 for i in range(1,11)}
+
+# # for i in range(1,11):
+# #     numbers[i] = i**2
+
+# # print(numbers)
+
+# evens = {key:value for key, value in numbers.items() if key % 2 == 0}
+# # for key,value in numbers.items():
+# #     if key % 2 == 0:
+# #         evens[key] = value 
+
+# print(evens)
+
+odd = [i for i in numbers if i % 2 != 0]
+print(odd)
