@@ -185,5 +185,7 @@ numbers = [1,1,1,1,2,2,2,3,3,3,3,3,4]
 
 # print(evens)
 
-odd = [i for i in numbers if i % 2 != 0]
-print(odd)
+# odd = [i for i in numbers if i % 2 != 0]
+# print(odd)
+
+
