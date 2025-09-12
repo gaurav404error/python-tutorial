@@ -29,7 +29,6 @@
 #     "abhi" : 10000000000000000,
 #     "gaurav" : 20000000000000000000
 # }
-
 # print(names["rohan"])
 
 # nums = [1,2,3,4,5]
@@ -37,3 +36,26 @@
 
 # with open("abc.txt","r") as f:
 #     print(f)
+
+
+
+n = int(input("enter a number:"))
+print(n**2)
+print(e)
+
+
+
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+ print("Cannot divide by zero!")
+
+
+try:
+    num = int("abc")
+except ValueError:
+   print("invalid input! please enter a number")
+
+
+
