@@ -123,22 +123,23 @@ path = "/home/user/documents/admit_card.pdf"
 # print(path)
 # print(extension)
 
-path = "C:\\Users\\singh\\OneDrive\\Desktop\\New folder"
-os.chdir(path)
+# path = "C:\\Users\\singh\\OneDrive\\Desktop\\New folder"
+# os.chdir(path)
 
-folder_path = "python"
+# folder_path = "python"
 
-file_path = os.path.join(path,folder_path,"app.py")
-# print(file_path)
+# file_path = os.path.join(path,folder_path,"app.py")
+# # print(file_path)
 
-os.makedirs(folder_path, exist_ok=True)
+# os.makedirs(folder_path, exist_ok=True)
 
-with open(file_path, "a") as file:
-    file.writelines("""
-            arr=list(range(1000))
-            def linear_search(a,x):
-                for i in range(len(a)):
-                    if x==a[i]:
-                        return i
-                return-1
-        """)
+# with open(file_path, "a") as file:
+#     file.writelines("""
+#             arr=list(range(1000))
+#             def linear_search(a,x):
+#                 for i in range(len(a)):
+#                     if x==a[i]:
+#                         return i
+#                 return-1
+#         """)
+# file_path(os.path.join)
