@@ -34,3 +34,5 @@ time = time.
 
 # time = datetime.time.hour()
 # print(time)
+
+Time = datetime.date.today

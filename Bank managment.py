@@ -1,4 +1,5 @@
 class Account:
+    rate = 1.04
     def __init__(self, acc_no, name, balance=0):
         self.acc_no = acc_no
         self.name = name
