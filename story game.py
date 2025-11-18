@@ -1,5 +1,5 @@
 
-name = input("Type your name: ")
+name = str(input("Type your name: "))
 print(f"Welcome {name.title()} to this adventure!")
 print("you hear a women crying near the village pond at night")
 print("what will you do?")
@@ -15,6 +15,7 @@ elif choice=="3":
     print("your friend arrives with a pandit jii. the ghost disappear.you're safe now!")
 else:
     print("you wakeup and your dream is over.")
+
 
 
 

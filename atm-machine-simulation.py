@@ -33,3 +33,14 @@ class ATM:
 
     def authenticate(self, acc_no, pin):
         account = self.accounts.get(acc_no)
+        print(f" Account authenticate")
+
+
+# ---------------- MAIN PROGRAM ----------------
+atm = ATM()
+acc = Account('123', 'rohit', '1235', 500)
+
+# Pre-created sample accounts (Optional)
+acc.check_balance()
+acc.withdraw(200)
+acc.deposit(500)

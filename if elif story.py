@@ -16,7 +16,9 @@ elif answer.lower()=="no":
      print("smart choice! a secret door opens to treasure.you win!")
 else:
      print("you froze in fear. a trapdoor opens and you're gone now game over")
-els
+else:
+     
+    
 
 
 

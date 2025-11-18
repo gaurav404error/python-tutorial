@@ -36,7 +36,7 @@ class Bank:
 
 
 
-bank = Bank("State Bank of Python")
+bank = Bank("State Bank of BIHAR")
 
 # Create Accounts
 bank.create_account(101, "gaurav", 5000)
@@ -50,3 +50,4 @@ acc1.check_balance()
 
 acc2 = bank.get_account(102)
 acc2.withdraw(5000) 
+

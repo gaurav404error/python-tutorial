@@ -48,7 +48,6 @@ class StudentManagementSystem:
                 print(f"Roll No: {stu.roll_no}, Name: {stu.name}")
 
 
-# ---------- DEMO ----------
 sms = StudentManagementSystem()
 
 # Add Students
