@@ -42,3 +42,4 @@ print(a.replace("H", "J"))
 
 a = "Hello! World! rohiy"
 print(a.split("!")) 
+
