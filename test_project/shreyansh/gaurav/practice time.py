@@ -35,6 +35,16 @@
 #     print (result) 
 
 
-def greet():
-    print("hello,welcome to python!")
+# def greet():
+#     print("hello,welcome to python!")
+# def function_name(parameters):
+#     smallest=min(numbers)
+#     print(smallest)
+    #def function_name()
+numbers= [988784,65454,252545,2525856,0.125,-6545.2,-0.14,-5]
+largest=max(numbers)
+print(largest)
+
+
+
 

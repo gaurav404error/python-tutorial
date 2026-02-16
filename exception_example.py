@@ -48,7 +48,7 @@ print(e)
 
 try:
     result = 10 / 0
-except ZeroDivisionError:
+except ZeroDivisi   onError:
  print("Cannot divide by zero!")
 
 
@@ -56,6 +56,8 @@ try:
     num = int("abc")
 except ValueError:
    print("invalid input! please enter a number")
+
+
 
 
 
